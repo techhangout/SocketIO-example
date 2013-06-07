@@ -1,0 +1,36 @@
+body {
+    background-color: #efefef;
+    margin: 0;
+    padding: 0;
+}
+#chatWrapper {
+    margin: 0 auto;
+    padding: 3px 0;
+    width: 1000px;
+}
+
+#chatLog{
+    background: #fff;
+    border: 1px solid #ddd;
+    float: left;
+    min-height: 300px;
+    width: 798px;
+}
+#participants {
+    float: left;
+    width: 200px;
+    min-height: 300px;
+}
+
+#chatControls {
+    clear: both;
+    padding: 5px 0;
+}
+#userMessage {
+    height: 25px;
+    width: 710px;
+}
+#sendButton {
+    padding: 5px;
+    width: 80px;
+}

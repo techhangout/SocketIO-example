@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Socket.io chat example</title>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        <script src="/js/client.js"></script>
+        <link rel="stylesheet" href="/css/chat.css" />
+    </head>
+    <body>
+        <div id="chatWrapper">
+            <h1>Socket.IO simple chat application</h1>
+            <div>
+                <div id="chatLog"></div>
+                <div id="participants"></div>
+            </div>
+            <div id="chatControls">
+                <form action="#" method="post" id="messageForm">
+                    <input type="text" id="userMessage" />
+                    <input type="submit" value="Send" id="sendButton" />
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
